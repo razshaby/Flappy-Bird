@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>A Multiplayer Game</title>
+    <style>
+      canvas {
+        width: 480px;
+        height: 270px;
+        border: 5px solid black;
+      }
+    </style>
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+    <body onload="startGame()">
+<script src="/static/game.js"></script>
+<br>Enter your name: <input type="text" name="fname" id="txtbox">
+<button id="btnready" onclick="ready()">I am ready</button>
+
+<div id="playerid"></div>
+  </body>
+</html>
